@@ -9,7 +9,8 @@ from datetime import datetime
 
 # --- 1. Configuration ---
 # REPLACE THIS WITH YOUR ACTUAL API KEY
-API_KEY = "fe9989bf293345cb172b17490a704651" 
+API_KEY = "fe9989bf293345cb172b17490a704651"
+BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 
 # Reservoir Location (Example: Khadakwasla Dam, Pune)
 LAT = "18.438"
