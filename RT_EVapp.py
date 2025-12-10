@@ -15,7 +15,7 @@ API_KEY = "c7d1876532760025967b708e94c55282"
 LAT = "18.438"
 LON = "73.764"
 MODEL_PATH = '/content/reservoir_model.pkl'
-CSV_FILE = '/content/pune_climate_data.csv'
+CSV_FILE = '/content/reservoir_history.csv'
 
 # API Endpoint
 URL = f"https://api.openweathermap.org/data/2.5/weather?lat={LAT}&lon={LON}&appid={API_KEY}&units=metric"
