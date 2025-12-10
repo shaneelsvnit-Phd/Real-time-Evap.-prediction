@@ -9,7 +9,7 @@ from datetime import datetime
 
 # --- 1. Configuration ---
 # REPLACE THIS WITH YOUR ACTUAL API KEY
-API_KEY = "c7d1876532760025967b708e94c55282" 
+API_KEY = "fe9989bf293345cb172b17490a704651" 
 
 # Reservoir Location (Example: Khadakwasla Dam, Pune)
 LAT = "18.438"
