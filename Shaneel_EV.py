@@ -440,11 +440,12 @@ st.sidebar.info(
 # ============================================================================
 
 if page == "🏠 Home":
-    st.title("💧 Reservoir Evaporation Loss Prediction System")
+    st.title("💧 CWPRSReservoir Evaporation Loss Prediction System
+                   By Shaneel S. SAO")
     
     st.markdown("""
-    Welcome to the **Reservoir Evaporation Loss Prediction System**, an advanced machine learning 
-    application designed to help water resource managers accurately predict and optimize water 
+    Welcome to the **CWPRS Reservoir Evaporation Loss Prediction System**, an advanced machine learning 
+    application designed By Shaneel S SAO to help water resource managers accurately predict and optimize water 
     management in reservoirs.
     """)
     
