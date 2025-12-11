@@ -440,8 +440,7 @@ st.sidebar.info(
 # ============================================================================
 
 if page == "🏠 Home":
-    st.title("💧 CWPRSReservoir Evaporation Loss Prediction System
-                   By Shaneel S. SAO")
+    st.title("💧 CWPRS Reservoir Evaporation Loss Prediction System")
     
     st.markdown("""
     Welcome to the **CWPRS Reservoir Evaporation Loss Prediction System**, an advanced machine learning 
