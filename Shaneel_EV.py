@@ -26,8 +26,7 @@ st.set_page_config(
         'Get Help': 'https://github.com/yourusername/reservoir-ml',
         'Report a bug': 'https://github.com/yourusername/reservoir-ml/issues',
         'About': "Reservoir Evaporation Loss Prediction System v1.0"
-    }
-)
+    })
 
 # ============================================================================
 # CUSTOM STYLING
