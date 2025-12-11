@@ -5,5 +5,3 @@ scikit-learn
 joblib
 requests
 plotly
-os
-datetime
