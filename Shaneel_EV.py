@@ -204,9 +204,29 @@ def make_prediction(params):
     
     if model is not None:
         try:
+            # --- FIX START: Handle dictionary-wrapped models ---
+            if isinstance(model, dict):
+                # The pickle file is a dictionary. We need to find the model inside it.
+                # We check for common key names used when saving models.
+                found_model = None
+                for key in ['model', 'regressor', 'best_model', 'pipeline']:
+                    if key in model:
+                        found_model = model[key]
+                        break
+                
+                if found_model is not None:
+                    model = found_model
+                else:
+                    # If we can't find the model, raise an error listing the keys
+                    # so you can see what is actually inside your pickle file.
+                    raise ValueError(f"Loaded object is a dictionary with keys: {list(model.keys())}. Could not automatically find model.")
+            # --- FIX END ---
+
             prediction = model.predict(X)[0]
+            
         except Exception as e:
             st.error(f"Prediction error: {str(e)}")
+            # Fallback to mock prediction if real model fails
             prediction = np.random.uniform(0.02, 0.08)
     else:
         # Mock prediction for demonstration
