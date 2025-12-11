@@ -440,7 +440,7 @@ st.sidebar.info(
 # ============================================================================
 
 if page == "🏠 Home":
-    st.title("💧 CWPRS Reservoir Evaporation Loss Prediction System")
+    st.title("💧 CWPRS Evaporation Loss Prediction System- By Shaneel S Sao")
     
     st.markdown("""
     Welcome to the **CWPRS Reservoir Evaporation Loss Prediction System**, an advanced machine learning 
@@ -457,7 +457,7 @@ if page == "🏠 Home":
         st.metric("Test RMSE", "0.0676", "mm/day")
     
     with col3:
-        st.metric("Training Samples", "800", "")
+        st.metric("Training Samples", "8000", "")
     
     st.markdown("---")
     
@@ -519,7 +519,7 @@ if page == "🏠 Home":
 # ============================================================================
 
 elif page == "📊 Prediction":
-    st.title("📊 Prediction Dashboard")
+    st.title("📊 Prediction Dashboard-CWPRS")
     
     st.markdown("""
     Enter your reservoir and environmental parameters to get an instant prediction 
