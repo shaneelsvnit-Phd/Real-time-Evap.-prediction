@@ -17,7 +17,8 @@ warnings.filterwarnings('ignore')
 # ============================================================================
 
 st.set_page_config(
-    page_title="CWPRS Reservoir Evaporation Loss Predictor",
+    st.title("CWPRS Reservoir Evaporation Loss Predictor")
+st.caption("Powered by the Central Water and Power Research Station data models")
     page_icon="💧",
     layout="wide",
     initial_sidebar_state="expanded",
