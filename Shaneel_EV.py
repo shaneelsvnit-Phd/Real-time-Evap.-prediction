@@ -18,7 +18,6 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(
     page_title="CWPRS Reservoir Evaporation Loss Predictor",
-    st.subheader("By Shaneel S. Sao"),
     page_icon="💧",
     layout="wide",
     initial_sidebar_state="expanded",
